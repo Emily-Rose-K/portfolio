@@ -2,8 +2,6 @@ import Head from 'next/head'
 import Link from 'next/link'
 import {useEffect} from 'react'
 
-
-
 export default function Navbar() {
     useEffect (() => {
         document.getElementById("home").style.color = "#fac800"
@@ -41,6 +39,13 @@ export default function Navbar() {
                     </li>
                 </ul>
             </navbar>
+            <style jsx>
+                {` li {
+                    display: inline;
+                    margin: 30px;
+                    }
+                `}
+            </style>
         </div>
     )
 }
