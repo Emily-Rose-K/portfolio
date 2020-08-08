@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Navbar from '../components/navbar'
+import Footer from '../components/footer'
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
          Now I’m pursuing that feeling full-time. Some of my interests (other than coding) include: 
          team-building and team dynamics, emojis, journaling, multiplayer games, plants, and books.
       </p>
+      <Footer />
     </div>
   )
 }
