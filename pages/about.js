@@ -1,4 +1,5 @@
 import Navbar from '../components/navbar'
+import Footer from '../components/footer'
 
 export default function About() {
     return (
@@ -7,6 +8,7 @@ export default function About() {
             <div>
                 <h1>Choose Your Fighter</h1>
             </div>
+            <Footer />
         </div>
     )
 }

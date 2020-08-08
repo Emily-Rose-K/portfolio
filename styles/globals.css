@@ -21,3 +21,16 @@ h1 {
   text-align: center;
   color: #101820 
 }
+
+#footer-icons {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+#signature {
+  text-align: center;
+}
