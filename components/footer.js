@@ -8,13 +8,13 @@ export default function Footer() {
         right:0,
     }
     return (
-        <footer style={footerstyle}>
+        <footer style={footerstyle}> 
             <div id="footer-icons">
-                <a href="https://www.linkedin.com/in/emily-krauss-89193510b/" target="_blank">
+                <a href="https://github.com/Emily-Rose-K" target="_blank">
                     <img alt="LinkedIn" src="/github-logo.png"
                     width="40" height="40"></img>
                 </a>
-                <a href="https://github.com/Emily-Rose-K" target="_blank">
+                <a href="https://www.linkedin.com/in/emily-krauss-89193510b/" target="_blank">
                     <img alt="LinkedIn" src="/linkedin-logo.png"
                     width="40" height="40"></img>
                 </a>
