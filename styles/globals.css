@@ -19,7 +19,7 @@ a {
 
 h1 {
   text-align: center;
-  color: #101820 
+  color: #101820;
 }
 
 #footer-icons {
@@ -33,4 +33,18 @@ h1 {
 
 #signature {
   text-align: center;
+}
+
+#avatar {
+  border-radius: 50%;
+  display: flex;
+}
+
+#intro {
+  display: flex;
+  align-self: center;
+}
+
+#fighters {
+  display: flex;
 }
