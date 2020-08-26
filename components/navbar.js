@@ -7,7 +7,6 @@ export default function Navbar() {
         document.getElementById("home").style.color = "#fac800"
         document.getElementById("about").style.color = "#10c840"
         document.getElementById("portfolio").style.color = "#00a0c8"
-        document.getElementById("contact").style.color = "#d24040"
     })
 
     return (
@@ -30,11 +29,6 @@ export default function Navbar() {
                     <li>
                         <Link href="/portfolio">
                             <a id="portfolio">Portfolio</a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/contact">
-                            <a id="contact">Contact</a>
                         </Link>
                     </li>
                 </ul>

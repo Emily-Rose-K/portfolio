@@ -8,6 +8,7 @@ export default function Footer() {
         right:0,
     }
     return (
+<<<<<<< HEAD
         <footer style={footerstyle}>
             <div id="footer-icons">
                 <a href="https://www.linkedin.com/in/emily-krauss-89193510b/" target="_blank">
@@ -15,6 +16,15 @@ export default function Footer() {
                     width="40" height="40"></img>
                 </a>
                 <a href="https://github.com/Emily-Rose-K" target="_blank">
+=======
+        <footer style={footerstyle}> 
+            <div id="footer-icons">
+                <a href="https://github.com/Emily-Rose-K" target="_blank">
+                    <img alt="LinkedIn" src="/github-logo.png"
+                    width="40" height="40"></img>
+                </a>
+                <a href="https://www.linkedin.com/in/emily-krauss-89193510b/" target="_blank">
+>>>>>>> a17c4070a1d67a95a5ad48cb79a4bb829f717c2e
                     <img alt="LinkedIn" src="/linkedin-logo.png"
                     width="40" height="40"></img>
                 </a>
