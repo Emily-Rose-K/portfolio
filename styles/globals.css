@@ -47,4 +47,9 @@ h1 {
 
 #fighters {
   display: flex;
+  justify-content: space-evenly;
+}
+
+#fighter {
+  text-align: center;
 }
