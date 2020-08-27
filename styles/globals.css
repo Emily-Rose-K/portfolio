@@ -17,10 +17,27 @@ a {
   box-sizing: border-box;
 }
 
+#emily {
+  font-family: 'Courier Prime', monospace;
+  font-size: 300%
+}
+
+#home-content {
+  margin-left: 10%;
+}
+
+#blurb, #intro {
+  width: 80%;
+  font-family: 'Courier Prime', monospace;
+  font-size: 140%;
+}
+
 h1 {
   text-align: center;
   color: #101820;
+  font-size: x-large;
 }
+
 
 #footer-icons {
   text-align: center;
@@ -36,13 +53,13 @@ h1 {
 }
 
 #avatar {
-  border-radius: 50%;
-  display: flex;
-}
-
-#intro {
-  display: flex;
-  align-self: center;
+  float: left;
+  width: 350px;
+  height: 350px;
+  margin-right: 40px;
+  shape-outside: circle();
+  clip-path: circle();
+  background-image: url("/public/mahface.png");
 }
 
 #fighters {
@@ -52,4 +69,17 @@ h1 {
 
 #fighter {
   text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #blurb, #intro {
+    font-size: 80%;
+  }
+  #avatar{
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+  }
+
 }
