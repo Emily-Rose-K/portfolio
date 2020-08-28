@@ -17,6 +17,13 @@ a {
   box-sizing: border-box;
 }
 
+#nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
 #emily {
   font-family: 'Courier Prime', monospace;
   font-size: 300%
@@ -73,7 +80,7 @@ h1 {
   display: flex;
   justify-content: center;
   font-family: 'Press Start 2P';
-  margin: 10px 300px
+  margin: 100px 200px;
 }
 
 

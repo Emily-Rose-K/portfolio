@@ -14,7 +14,7 @@ export default function Navbar() {
             <Head>
                 <title>ERK Portfolio</title>
             </Head>
-            <navbar>
+            <navbar id="nav">
                 <ul>
                     <li>
                         <Link href="/">
@@ -33,13 +33,6 @@ export default function Navbar() {
                     </li>
                 </ul>
             </navbar>
-            <style jsx>
-                {` li {
-                    display: inline;
-                    margin: 30px;
-                    }
-                `}
-            </style>
         </div>
     )
 }
