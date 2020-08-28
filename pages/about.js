@@ -27,7 +27,7 @@ export default function About() {
         <div>
             <Navbar />
             <div>
-                <h1>Choose Your Fighter</h1>
+                <h1 id="choose">Choose Your Fighter</h1>
             </div>
             <div id="fighters">
                 <h3 id="restorative" onClick={chooseFighter}>Restorative</h3>

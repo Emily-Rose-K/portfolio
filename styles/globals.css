@@ -65,11 +65,21 @@ h1 {
 #fighters {
   display: flex;
   justify-content: space-evenly;
+  font-family: 'Press Start 2P' ;
+  margin: 50px
 }
 
-#fighter {
-  text-align: center;
+#fighter, #choose {
+  display: flex;
+  justify-content: center;
+  font-family: 'Press Start 2P';
+  margin: 10px 300px
 }
+
+
+
+
+
 
 
 @media only screen and (max-width: 600px) {
