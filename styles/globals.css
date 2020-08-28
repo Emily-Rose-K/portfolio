@@ -75,15 +75,21 @@ h1 {
 #fighters {
   display: flex;
   justify-content: space-evenly;
-  font-family: 'Press Start 2P' ;
   font-size: xx-large;
 }
 
 #fighter, #choose {
   display: flex;
   justify-content: center;
-  font-family: 'Press Start 2P';
   margin: 70px 200px;
+}
+
+#choose {
+  font-family: 'Press Start 2P';
+}
+
+#fighter {
+  font-family: 'Courier Prime', monospace; 
 }
 
 @media only screen and (max-width: 600px) {
