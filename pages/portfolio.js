@@ -5,7 +5,7 @@ export default function Portfolio() {
     return (
         <div>
             <Navbar />
-            <h1>My Most Recent Projects:</h1>
+            <h1 id="portfolio">My Most Recent Projects:</h1>
             <div id="flower-farm">
                 <h3>Flower Farm</h3>
                 <p>This cute, simple farming game was build with HTML canvas. Play as a farmer and

@@ -17,6 +17,16 @@ a {
   box-sizing: border-box;
 }
 
+#nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+#nav li {
+  margin: 5px;
+}
+
 #emily {
   font-family: 'Courier Prime', monospace;
   font-size: 300%
@@ -65,12 +75,16 @@ h1 {
 #fighters {
   display: flex;
   justify-content: space-evenly;
+  font-family: 'Press Start 2P' ;
+  font-size: xx-large;
 }
 
-#fighter {
-  text-align: center;
+#fighter, #choose {
+  display: flex;
+  justify-content: center;
+  font-family: 'Press Start 2P';
+  margin: 70px 200px;
 }
-
 
 @media only screen and (max-width: 600px) {
   #blurb, #intro {
@@ -80,6 +94,17 @@ h1 {
     width: 150px;
     height: 150px;
     margin-right: 30px;
+  }
+  #fighters {
+    flex-wrap: wrap;
+    margin: 100px;
+    font-size: 12px;
+  }
+
+  #fighter {
+    margin: 0;
+    justify-content: center;
+    font-size: small;
   }
 
 }

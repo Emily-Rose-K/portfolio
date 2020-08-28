@@ -8,7 +8,7 @@ export default function Footer() {
         right:0,
     }
     return (
-        <footer style={footerstyle}> 
+        <footer id="footer" style={footerstyle}> 
             <div id="footer-icons">
                 <a href="https://github.com/Emily-Rose-K" target="_blank">
                     <img alt="LinkedIn" src="/github-logo.png"
