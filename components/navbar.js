@@ -1,13 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import {useEffect} from 'react'
 
 export default function Navbar() {
-    useEffect (() => {
-        document.getElementById("home").style.color = "#fac800"
-        document.getElementById("about").style.color = "#10c840"
-        document.getElementById("portfolio").style.color = "#00a0c8"
-    })
 
     return (
         <div>
@@ -17,18 +11,18 @@ export default function Navbar() {
             <navbar id="nav">
                 <ul>
                     <li>
-                        <Link href="/">
-                            <a id="home">Home</a>
+                        <Link href="#home">
+                            Home
                         </Link>
                     </li>
                     <li>
-                        <Link href="/about">
-                            <a id="about">About</a>
+                        <Link href="#about_me">
+                            About
                         </Link>
                     </li>
                     <li>
-                        <Link href="/portfolio">
-                            <a id="portfolio">Portfolio</a>
+                        <Link href="#portfolio">
+                            Portfolio
                         </Link>
                     </li>
                 </ul>

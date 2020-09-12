@@ -31,58 +31,60 @@ export default function Home() {
   return (
     <div>
         <Navbar />
-          <h1 id="emily">Emily Rose Krauss</h1>
-          <div id="home-content" className="container">
-            <img src="/mahface.png" alt="Emily Krauss headshot" id="avatar"/>
-            <p id="intro"><span style={{fontWeight:"bold"}}>Hello!</span> So nice of you to stop by. I’m Emily, a software engineer residing in the Bay Area. </p>
-            <p id="blurb">
-            I found my passion for code while working in L&D at a startup. I built my first app to help my team track progress towards our goals. 
-            Witnessing my team use a product that I built gave me a sense of pride I had never experienced before.<span style={{fontWeight:"bold"}}> I was hooked.</span><br></br>
-            Some of my interests (other than coding) include: 
-            team-building and team dynamics, emojis, journaling, multiplayer games, plants, and books.
-            </p>
-          </div>
-          <div className="container">
-            <h1 id="choose">Click an emoji to learn more about me. </h1>
-                <div id="fighters">
-                    <h3 id="restorative" onClick={chooseFighter}>🛠</h3>
-                    <h3 id="input" onClick={chooseFighter}>📚</h3>
-                    <h3 id="intellection" onClick={chooseFighter}>🧠</h3>
-                    <h3 id="activator" onClick={chooseFighter}>🎬</h3>
-                    <h3 id="adaptability" onClick={chooseFighter}>🌊</h3>   
-                </div>
-                <div id="fighter">
-                <p>{text}</p>
+        <a id="home">
+            <h1 id="emily">Emily Rose Krauss</h1>
+            <div id="home-content" className="container">
+                <img src="/mahface.png" alt="Emily Krauss headshot" id="avatar"/>
+                <p id="intro">
+                    <span style={{fontWeight:"bold"}}>Hello!</span> So nice of you to stop by. I’m Emily, a software engineer residing in the Bay Area. 
+                </p>
+                <p id="blurb">
+                    I found my passion for code while working in L&D at a startup. I built my first app to help my team track progress towards our goals. 
+                    Witnessing my team use a product that I built gave me a sense of pride I had never experienced before.<span style={{fontWeight:"bold"}}> I was hooked.</span><br></br>
+                    Some of my interests (other than coding) include: 
+                    team-building and team dynamics, emojis, journaling, multiplayer games, plants, and books.
+                </p>
             </div>
-            </div>
+        </a>
+        <a id="about_me">
             <div className="container">
-            <h1 id="portfolio">My Most Recent Projects:</h1>
-            <div id="flower-farm">
-                <h3>Flower Farm</h3>
-                <p>This cute, simple farming game was build with HTML canvas. Play as a farmer and
-                    collect sparkles as your flowers grow! <a href="https://emily-rose-k.github.io/flower-farm/">Play</a>
-                </p>
+                <h1 id="choose">Click an emoji to learn more about me. </h1>
+                    <div id="fighters">
+                        <h3 id="restorative" onClick={chooseFighter}>🛠</h3>
+                        <h3 id="input" onClick={chooseFighter}>📚</h3>
+                        <h3 id="intellection" onClick={chooseFighter}>🧠</h3>
+                        <h3 id="activator" onClick={chooseFighter}>🎬</h3>
+                        <h3 id="adaptability" onClick={chooseFighter}>🌊</h3>   
+                    </div>
+                    <div id="fighter">
+                        <p>{text}</p>
+                    </div>
             </div>
-            <div id="project-tracker">
-                <h3>Project Tracker</h3>
-                <p>Built with Node.js and Express, this project tracker allows you to track your teams progress towards
-                    shared goals. 
-                </p>
+        </a>
+        <a id="porfolio">
+            <div className="container">
+                <h1 id="portfolio">My Most Recent Projects:</h1>
+                <div id="flower-farm">
+                    <h3>Flower Farm</h3>
+                    <p>This cute, simple farming game was built with HTML canvas. Play as a farmer and
+                        collect sparkles as your flowers grow! <a href="https://emily-rose-k.github.io/flower-farm/" style={{color: "#10c840"}}>Play</a>
+                    </p>
+                </div>
             </div>
             <div id="reading-buddy">
                 <h3>Reading Buddy</h3>
-                <p>This was a collaborative project between myself, <a href="https://charleshperry.com">Charles Perry</a>, Elliot Davidson, and Scott McLeod. We attempted
+                <p>This was a collaborative project between myself, <a href="https://charleshperry.com" style={{color: "#00a0c8"}}>Charles Perry</a>, Elliot Davidson, and Scott McLeod. We attempted
                     to create an online experience for readers using React and react-bootstrap. We're currently working on adding the
-                    finishing touches. <a href="https://compassionate-swirles-569ce5.netlify.app/">Check it out!</a>
+                    finishing touches. <a href="https://compassionate-swirles-569ce5.netlify.app/" style={{color: "#10c840"}}>Check it out!</a>
                 </p>
             </div>
             <div id="okr-tracker">
                 <h3>OKR Tracker</h3>
                 <p>My OKR tracker was the first app I ever built. It was made with Ruby on Rails and Bootstrap, and was designed with one team in mind. 
-                    I'm planning to flesh it out more and allow users to create and join teams. <a href="https://talentteam-okr-tracker.herokuapp.com/">Check it out!</a>
+                    I'm planning to flesh it out more and allow users to create and join teams. <a href="https://talentteam-okr-tracker.herokuapp.com/" style={{color: "#10c840"}}>Check it out!</a>
                 </p>
             </div>
-    </div>
+        </a>
     <Footer />
   </div>
   )
