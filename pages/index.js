@@ -14,7 +14,7 @@ export default function Home() {
           setText("Input: I am a walking, talking archive of all the things that might be important down the road. Need a resource? I have it. Need an obscure resource? I have that too. I collect and share knowledge and put the teams collective resources to use.")
       }
       else if (e.target.id === "intellection") {
-          setText("Intellection: I am a thinker. See me pacing, talking to myself (or my computer), musing over something in order to come to a logical conclusion. Want to bounce ideas off someone? Me too, let me bounce them off you. Theories and practicalities are no stranger to my introspective self. ")
+          setText("Intellection: I am a thinker. See me pacing, talking to myself (or my computer), musing over something in order to come to a logical conclusion. Want to bounce ideas off someone? Me too! Let me bounce them off you. Theories and practicalities are no stranger to my introspective self. ")
       }
       else if (e.target.id === "activator") {
           setText("Activator: I am the first to ask, “When can we start?” Let’s stop talking and start doing. The team is stagnating? I can get us moving again. Not sure where to start on that project? I’ll help you get things kicked off. I love being the one to press the proverbial “Go” button. I’m the spark that creates action.")
@@ -32,7 +32,7 @@ export default function Home() {
     <div>
         <Navbar />
           <h1 id="emily">Emily Rose Krauss</h1>
-          <div id="home-content">
+          <div id="home-content" className="container">
             <img src="/mahface.png" alt="Emily Krauss headshot" id="avatar"/>
             <p id="intro"><span style={{fontWeight:"bold"}}>Hello!</span> So nice of you to stop by. I’m Emily, a software engineer residing in the Bay Area. </p>
             <p id="blurb">
@@ -42,20 +42,20 @@ export default function Home() {
             team-building and team dynamics, emojis, journaling, multiplayer games, plants, and books.
             </p>
           </div>
-          <div>
-                <h1 id="choose">How I approach my work. </h1>
-            </div>
-            <div id="fighters">
-                <h3 id="restorative" onClick={chooseFighter}>🛠</h3>
-                <h3 id="input" onClick={chooseFighter}>📚</h3>
-                <h3 id="intellection" onClick={chooseFighter}>🧠</h3>
-                <h3 id="activator" onClick={chooseFighter}>🎬</h3>
-                <h3 id="adaptability" onClick={chooseFighter}>🌊</h3>   
-            </div>
-            <div id="fighter">
+          <div className="container">
+            <h1 id="choose">Click an emoji to learn more about me. </h1>
+                <div id="fighters">
+                    <h3 id="restorative" onClick={chooseFighter}>🛠</h3>
+                    <h3 id="input" onClick={chooseFighter}>📚</h3>
+                    <h3 id="intellection" onClick={chooseFighter}>🧠</h3>
+                    <h3 id="activator" onClick={chooseFighter}>🎬</h3>
+                    <h3 id="adaptability" onClick={chooseFighter}>🌊</h3>   
+                </div>
+                <div id="fighter">
                 <p>{text}</p>
             </div>
-            <div>
+            </div>
+            <div className="container">
             <h1 id="portfolio">My Most Recent Projects:</h1>
             <div id="flower-farm">
                 <h3>Flower Farm</h3>
