@@ -41,7 +41,7 @@ return (
                     team-building and team dynamics, emojis, journaling, multiplayer games, plants, and books.
             </p>
         </div>
-        <div className="container">
+        <div className="about">
             <h1 id="choose">Click an emoji to learn more about me. </h1>
                 <div id="fighters">
                     <h3 id="restorative" onClick={chooseFighter}>🛠</h3>
@@ -55,11 +55,11 @@ return (
                 </div>
         </div>
         <div className="container" id="projects">
-            <h1 id="portfolio">My Most Recent Projects:</h1>
+            <h1 id="portfolio">What I've been up to:</h1>
             <div id="flower-farm">
                 <h3>Flower Farm</h3>
                 <p>This cute, simple farming game was built with HTML canvas. Play as a farmer and
-                    collect sparkles as your flowers grow! <a href="https://emily-rose-k.github.io/flower-farm/" style={{color: "#10c840"}}>Check it out!</a>
+                    collect sparkles as your flowers grow! <a href="https://emily-rose-k.github.io/flower-farm/" style={{color: "#10c840"}}>Check it out,</a> <a href="https://github.com/Emily-Rose-K/flower-farm" style={{color: "#00a0c8"}}>or view the repo.</a>
                 </p>
                 <img src="flowerfarm.png" alt="image of flower farm game play" />
             </div>
@@ -67,15 +67,16 @@ return (
             <h3>Reading Buddy</h3>
                 <p>This was a collaborative project between myself, <a href="https://charleshperry.com" style={{color: "#00a0c8"}}>Charles Perry</a>, Elliot Davidson, and Scott McLeod. We attempted
                    to create an online experience for readers using React and react-bootstrap. We're currently working on adding the
-                   finishing touches. <a href="https://readingbuddy.netlify.app" style={{color: "#10c840"}}>Check it out!</a>
+                   finishing touches. <a href="https://readingbuddy.netlify.app" style={{color: "#10c840"}}>Check it out,</a> <a href="https://github.com/Emily-Rose-K/Frontend-Reading-Buddy" style={{color: "#00a0c8"}}>or view the repo.</a>
                 </p>
                 <img src="readingbuddy.png" alt="home page of readingbuddy dot netlify dot app" />
             </div>
             <div id="okr-tracker">
                 <h3>OKR Tracker</h3>
                     <p>My OKR tracker was the first app I ever built. It was made with Ruby on Rails and Bootstrap, and was designed with one team in mind. 
-                       I'm planning to flesh it out more and allow users to create and join teams. <a href="https://talentteam-okr-tracker.herokuapp.com/" style={{color: "#10c840"}}>Check it out!</a>
+                       I'm planning to flesh it out more and allow users to create and join teams. <a href="https://talentteam-okr-tracker.herokuapp.com/" style={{color: "#10c840"}}>Check it out,</a><a href="https://github.com/Emily-Rose-K/talentteam_okr" style={{color: "#00a0c8"}}> or view the repo.</a>
                     </p>
+                    <img src="okrtracker.png" alt="home page of okr tracker with some goals added" />
             </div>
         </div>
     <Footer />

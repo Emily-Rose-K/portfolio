@@ -17,16 +17,18 @@ a {
 }
 
 #emily {
-  font-size: 300%
+  font-size: 300%;
+  margin-top: 100px;
 }
 
 #home-content {
   margin-left: 10%;
+  margin-bottom: 30%;
 }
 
 #blurb, #intro {
   width: 80%;
-  font-size: 140%;
+  font-size: 130%;
 }
 
 h1 {
@@ -56,6 +58,10 @@ h1 {
   background-image: url("/public/mahface.png");
 }
 
+.about {
+  margin: 100px;
+}
+
 #fighters {
   display: flex;
   justify-content: space-evenly;
@@ -66,6 +72,12 @@ h1 {
   width: 80%;
   margin: 0 auto;
   font-size: large;
+  margin-bottom: 30%;
+}
+
+#portfolio {
+  margin: 50px;
+  font-size: x-large;
 }
 
 #projects {
@@ -86,13 +98,17 @@ h1 {
 
 .container {
   min-height: 100vh;
-  /* width: 100vw; */
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: left;
-  /* opacity: 0.2; */
+}
+
+#okr-tracker {
+  margin-bottom: 50px;
+}
+#okr-tracker img {
+  width: 50%;
+  height: 50%
 }
 
 @media only screen and (max-width: 600px) {
@@ -106,12 +122,14 @@ h1 {
   }
   #fighters {
     flex-wrap: wrap;
-    margin: 100px;
     font-size: 12px;
   }
 
+  #choose {
+    font-size: small;
+  }
+
   #fighter {
-    margin: 0;
     justify-content: center;
     font-size: small;
   }
