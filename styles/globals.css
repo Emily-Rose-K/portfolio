@@ -16,16 +16,6 @@ a {
   box-sizing: border-box;
 }
 
-#nav ul {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-}
-
-#nav li {
-  margin: 5px;
-}
-
 #emily {
   font-size: 300%
 }
@@ -45,13 +35,11 @@ h1 {
   font-size: x-large;
 }
 
-
 #footer-icons {
   display: flex;
   justify-content: space-between;
   max-width: 100px;
   margin: 0 auto;
-
 }
 
 #signature {
@@ -77,6 +65,23 @@ h1 {
 #fighter {
   width: 80%;
   margin: 0 auto;
+  font-size: large;
+}
+
+#projects {
+  font-size: large;
+  width: 80%;
+  margin: 0 auto;  
+}
+
+#flower-farm img {
+  width: 50%;
+  height: 50%
+}
+
+#reading-buddy img {
+  width: 50%;
+  height: 50%
 }
 
 .container {
