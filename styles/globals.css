@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Courier Prime', monospace; 
   color: #101820;
   background-color: #f0f0dc;
 }
@@ -17,29 +16,19 @@ a {
   box-sizing: border-box;
 }
 
-#nav ul {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-}
-
-#nav li {
-  margin: 5px;
-}
-
 #emily {
-  font-family: 'Courier Prime', monospace;
-  font-size: 300%
+  font-size: 300%;
+  margin-top: 100px;
 }
 
 #home-content {
   margin-left: 10%;
+  margin-bottom: 30%;
 }
 
 #blurb, #intro {
   width: 80%;
-  font-family: 'Courier Prime', monospace;
-  font-size: 140%;
+  font-size: 130%;
 }
 
 h1 {
@@ -48,14 +37,11 @@ h1 {
   font-size: x-large;
 }
 
-
 #footer-icons {
-  text-align: center;
   display: flex;
   justify-content: space-between;
   max-width: 100px;
   margin: 0 auto;
-  padding: 10px 0;
 }
 
 #signature {
@@ -72,24 +58,57 @@ h1 {
   background-image: url("/public/mahface.png");
 }
 
+.about {
+  margin: 100px;
+}
+
 #fighters {
   display: flex;
   justify-content: space-evenly;
   font-size: xx-large;
 }
 
-#fighter, #choose {
-  display: flex;
-  justify-content: center;
-  margin: 70px 200px;
-}
-
-#choose {
-  font-family: 'Press Start 2P';
-}
-
 #fighter {
-  font-family: 'Courier Prime', monospace; 
+  width: 80%;
+  margin: 0 auto;
+  font-size: large;
+  margin-bottom: 30%;
+}
+
+#portfolio {
+  margin: 50px;
+  font-size: x-large;
+}
+
+#projects {
+  font-size: large;
+  width: 80%;
+  margin: 0 auto;  
+}
+
+#flower-farm img {
+  width: 50%;
+  height: 50%
+}
+
+#reading-buddy img {
+  width: 50%;
+  height: 50%
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#okr-tracker {
+  margin-bottom: 50px;
+}
+#okr-tracker img {
+  width: 50%;
+  height: 50%
 }
 
 @media only screen and (max-width: 600px) {
@@ -103,12 +122,14 @@ h1 {
   }
   #fighters {
     flex-wrap: wrap;
-    margin: 100px;
     font-size: 12px;
   }
 
+  #choose {
+    font-size: small;
+  }
+
   #fighter {
-    margin: 0;
     justify-content: center;
     font-size: small;
   }
